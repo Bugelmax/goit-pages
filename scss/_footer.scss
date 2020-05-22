@@ -1,0 +1,38 @@
+footer {
+  .container {
+    padding: 20px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #e5e5e5;
+  }
+  .copywrite {
+    color: #333333;
+    font-family: $montserrat;
+    a {
+      color: $red-color;
+      text-decoration: none;
+    }
+  }
+  form {
+    display: flex;
+    height: 40px;
+    input {
+      padding: 1em 2em;
+      color: #cccccc;
+      font-size: 15px;
+      font-family: $roboto;
+      font-weight: 300;
+      font-style: italic;
+      border: 1px solid #e7e7e7;
+    }
+    button {
+      border: none;
+      background-color: $icon-color;
+      padding: 1em 2em;
+      color: $white-color;
+      font-weight: 700;
+      font-family: $montserrat;
+    }
+  }
+}
